@@ -23,8 +23,9 @@ FROM client
 WHERE city = 'New York';
 
 ```
+- Capturas
 
-![[Pasted image 20240603162845.png]]
+ <img src=".3.png" alt="drawing" width="500"/>
 
 - Contar el número de productos cuyo precio está dentro de un rango específico
 
@@ -34,8 +35,9 @@ FROM product
 WHERE price BETWEEN 100 AND 500;
 
 ```
+- Capturas
 
-![[Pasted image 20240603162938.png]]
+ <img src=".4.png" alt="drawing" width="500"/>
 
 - Seleccionar clientes que viven en una ciudad específica y tienen un tipo de cliente específico
 
@@ -45,8 +47,9 @@ FROM client
 WHERE city = 'Chicago' AND type_of_client = 'Regular';
 
 ```
+- Capturas
 
-![[Pasted image 20240603163025.png]]
+ <img src=".5.png" alt="drawing" width="500"/>
 
 - Seleccionar productos que pertenecen a una categoría específica y cuyo precio está por encima de un valor específico
 
@@ -55,11 +58,10 @@ SELECT *
 FROM product
 WHERE category = 'Electronics' AND price > 500;
 
-
 ```
+- Capturas
 
-![[Pasted image 20240603163105.png]]
-
+ <img src=".6.png" alt="drawing" width="500"/>
 
 - Seleccionar productos que fueron producidos en un año específico y en un país de origen específico
 
@@ -68,10 +70,10 @@ SELECT *
 FROM product
 WHERE year_of_production = '2020' AND country_of_origin = 'China';
 
-
 ```
+- Capturas
 
-![[Pasted image 20240603191623.png]]
+ <img src=".7.png" alt="drawing" width="500"/>
 
 - Seleccionar clientes cuyo nombre completo comience con 'J'.
 
@@ -81,8 +83,10 @@ FROM client
 WHERE fullname LIKE 'J%';
 
 ```
+- Capturas
 
-![[Pasted image 20240603191730.png]]
+ <img src=".8.png" alt="drawing" width="500"/>
+
 
 - Seleccionar clientes cuya ciudad contenga la letra 'a'
 
@@ -92,5 +96,6 @@ FROM client
 WHERE city LIKE '%a%';
 
 ```
+- Capturas
 
-![[Pasted image 20240603191849.png]]
+ <img src=".9.png" alt="drawing" width="500"/>
